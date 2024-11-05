@@ -7,7 +7,8 @@ const InputForm = ({handleSubmitGuess}) => {
   };
   const handleSubmit = (e) => {
     e.preventDefault();
-    handleSubmitGuess(guess)
+    handleSubmitGuess(guess);
+    setGuess('')
   };
   return (
     <form onSubmit={handleSubmit} className="guess-input-wrapper">

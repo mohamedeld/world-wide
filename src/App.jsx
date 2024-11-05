@@ -3,6 +3,7 @@ import { useState } from 'react'
 import './App.css'
 import InputForm from './components/InputForm'
 import GuessResult from './components/GuessResult';
+import { sample } from './utils';
 
 function App() {
   const [guesses,setGusses] = useState([]);
@@ -12,7 +13,7 @@ function App() {
   }
   return (
     <div>
-    <GuessResult guesses={guesses}/>
+    <GuessResult guesses={guesses} />
     <InputForm handleSubmitGuess={handleSubmitGuess}/>
     </div>
   )

@@ -8,9 +8,10 @@
   overflow: hidden;
 }
 html {
-  max-width: 1200px;
+  max-width: 400px;
   margin: auto;
   margin-top: 4rem;
+  padding: 2rem;
   /* overflow-y: scroll; */
 
   --game-spacing: 32px;
